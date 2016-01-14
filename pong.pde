@@ -56,11 +56,11 @@ void draw() {
         ball_dir *= -1;
 
         // Send a message to the main page updating the score...
-        score += 1;
+        score += 1000;
         document.getElementById("score").innerHTML = "Score = " + score;
 
         // Adding in the total hits here...
-        total += 1000;
+        total += 1;
         document.getElementById("total").innerHTML = "Total Hits = " + total;
 
         if (score>highscore) {
