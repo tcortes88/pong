@@ -2,7 +2,7 @@
 float ball_x;
 float ball_y;
 float ball_dir = 1; // Direction in x 
-float ball_size = 7;  // Radius of ball
+float ball_size = 14;  // Radius of ball
 float dy = 2;  // Change in y
 
 // Global variables for the paddle
@@ -89,7 +89,7 @@ void draw() {
     }
 
     // Draw ball
-    fill(50,88,100);
+    fill(255,0,0);
     ellipse(ball_x, ball_y, ball_size, ball_size);
 
     // Draw the paddle
