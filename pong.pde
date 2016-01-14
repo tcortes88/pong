@@ -89,7 +89,7 @@ void draw() {
     }
 
     // Draw ball
-    fill(255,0,0);
+    fill(64,255,0);
     ellipse(ball_x, ball_y, ball_size, ball_size);
 
     // Draw the paddle
